@@ -1,0 +1,194 @@
+@import url("https://use.typekit.net/tij3zwt.css");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap%27');
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.title, .objnav, .titleabout{
+    font-family: oswald;
+}
+header{
+    background-image: url(misc/grille.png);
+}
+ul{
+    list-style: none;
+    justify-content: center;
+}
+nav{
+    padding-top: 40px;
+}
+.navtext{
+    margin: 12px;
+}
+#navbar{
+    display: flex;
+}
+ul#navbar{
+    margin-top: 0%;
+}
+.objnav{
+    display: inline-block;
+    margin: 12px;
+}
+.logoabc{
+    background-image: url(misc/logo.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 180px;
+    margin-right: 130px;
+}
+h2, h3{
+    color: grey;
+}
+h2{
+    transform: scaleY(1.5);
+    font-size: smaller;
+}
+h3{
+    font-size: small;
+}
+.bandcolor1{
+    background-color: orangered;
+    padding: 3px;
+    width: 110px;
+}
+.bandcolor2{
+    background-color: yellow;
+    padding: 3px;
+}
+.bandcolor3{
+    background-color: yellowgreen;    
+    padding: 3px;
+}
+.bandcolor4{
+    background-color: darkblue;    
+    padding: 3px;
+}
+.bandcolor5{
+    background-color: purple;
+    padding: 3px;
+}
+hr{
+    border: 0.75px solid rgba(156, 156, 156, 0.252);
+    margin: 8px 0px 8px 0px;
+}
+#video{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+}
+iframe{
+    width: 800px;
+    height: 530px;
+}
+.title{
+    color: rgba(255, 68, 0, 0.604);
+}
+.descript{
+    display: flex;
+    justify-content: center;
+    background-image: url(misc/grille.png);
+    padding: 20px 0px 20px 0px;
+    color: gray;
+}
+#articleblock{
+    display: flex;
+    justify-content: center;
+    margin: 20px 300px 40px 300px;
+}
+.article{
+    margin: 0px 25px 0px 25px;
+}
+#artgolf{
+    border: 2px solid rgba(156, 156, 156, 0.252);
+    width: 500px;
+    padding: 0px 7px 0px 20px;
+}
+#galerie{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+.imgacro{
+    height: 80px;
+    width: 115px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid rgba(156, 156, 156, 0.252);
+    grid-area: auto;
+}
+p{
+    font-family: droid-serif, sans-serif;
+    color: rgba(51, 50, 50, 0.81);
+    margin: 5px;
+}
+.link{
+    margin-bottom: 10px;
+}
+.descript, .date, .link, #comment{
+    font-style: italic;
+}
+.date{
+    font-size: small;
+}
+#aboutus{
+    display: flex;
+    justify-content: center;
+    background-image: url(misc/grille.png);
+    padding: 30px 50px 30px 50px;
+}
+.objabout{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 50px 0px 50px;
+    width: 200px;
+}
+.objaboutcenter{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 20px 0px 20px;
+    width: 275px;
+}
+.titleabout{
+    color: rgb(147, 147, 147);
+}
+.containerico{
+    display: flex;
+    object-fit: contain;
+}
+a:link, a:visited, a:hover, a:active{
+    color: rgb(147, 147, 147);
+}
+.link>a:link, .link>a:visited, .link>a:hover, .link>a:active{
+    text-decoration: none;
+}
+.icon{
+    object-fit: contain;
+}
+.strong{
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+#lien_extern{
+    display: flex;
+}
+#lien_extern>.icon{
+    margin: 0px 3px 0px 3px;
+}
+#mention_legal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 70px;
+    align-items: center;
+    margin-top: 15px;
+    font-size: small;
+}
+.descript>h3{
+    font-size: larger;
+}
